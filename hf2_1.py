@@ -1,5 +1,5 @@
 import math
 
 sugar = 3
-terfogat = sugar**2*math.pi
+terfogat = 4*math.pi*sugar/3/3
 print(terfogat)
