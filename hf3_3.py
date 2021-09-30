@@ -1,0 +1,6 @@
+age = int(input("Kérem a korát: "))
+sex = str(input("Kérem a nemét(Fiú(m) Lány(f))"))
+sex= sex.lower()
+if(sex == "m") : print("Sajnos fiúk nem kerülhetnek be a csapatba")
+elif(sex == "f" and age > 9 and age < 13) : print("Gratulalunk bekerülhetsz a csapatba")
+elif(sex == "f" and age <= 9 or age >=13 ) : print("Sajnos túl idős/fiatal vagy a csapathoz")
